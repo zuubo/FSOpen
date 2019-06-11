@@ -1,0 +1,53 @@
+html {
+    font-family: "Cinzel", serif;
+    background-color: #fc7325;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 0 20px 20px 20px;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  margin: 30px 10px 0 10px;
+  padding: 10px;
+}
+
+p {
+  line-height: 2;
+  letter-spacing: 3px;
+}
+
+.purple {
+  color: purple;
+}
+
+.big {
+  font-size: 30px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#thisShit {
+  background: #44a5ff;
+  text-shadow: 1px 1px 2px black;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+form div + div {
+  margin-top: 1em;
+}
